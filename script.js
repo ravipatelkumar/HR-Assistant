@@ -1,4 +1,4 @@
-const WEBHOOK_URL = "http://localhost:5678/webhook/hr-assistant";
+const WEBHOOK_URL = "https://dentists-procedures-providers-societies.trycloudflare.com/webhook/hr-assistant";
 
 const form = document.getElementById("chatForm");
 const questionInput = document.getElementById("question");
