@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HR Policy Assistant</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="chat-app">
+    <header class="header">
+      <div class="bot-icon">🤖</div>
+      <div>
+        <h1>HR Policy Assistant</h1>
+        <p>Ask me anything about HR policies.</p>
+      </div>
+    </header>
+
+    <section class="messages" id="messages">
+      <div class="welcome">
+        👋 <strong>Hello!</strong> Ask me anything about HR policies.
+      </div>
+    </section>
+
+    <form class="composer" id="chatForm">
+      <div class="input-wrap">
+        <textarea
+          id="question"
+          rows="1"
+          placeholder="Ask your question..."
+          autocomplete="off"
+        ></textarea>
+
+        <button id="sendBtn" type="submit" aria-label="Send message">
+          <span class="send-icon">➤</span>
+        </button>
+      </div>
+      <div class="composer-note">Enter to send • Shift + Enter for a new line</div>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
